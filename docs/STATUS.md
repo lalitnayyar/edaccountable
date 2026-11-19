@@ -2,6 +2,7 @@ The MVP is built and its automated tests pass. `docs/intent.md` says what it is,
 
 ## Build progress
 
+- **Lecture branch sync workflow:** a project skill at `.github/skills/sync-ed-branch/` can merge any named Ed Donner branch into the same branch in the student's repository and push it without rewriting history.
 - **Phase 1, a shell that runs:** done.
 - **Phase 2, database, rules and sample data:** done.
 - **Phase 3, the API:** done. At the 1,000 contacts, 500 deals and 5,000 activities limit, the dashboard's data arrives in about 22ms against a 200ms limit.
